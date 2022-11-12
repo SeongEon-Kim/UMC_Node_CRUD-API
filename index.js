@@ -23,7 +23,7 @@ app.get('/test/:id', function(req, res){
     const userName = req.params.id;
     //1. 데이터 베이스 연결
     const connection = mysql.createConnection({
-        host: '',
+        host: 'd',
         port: 3306,
         user: 'admin',
         password: '',
